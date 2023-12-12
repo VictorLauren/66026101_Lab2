@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front End Quiz 1</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 50px;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: cornflowerblue;
+      color: #fff;
+      padding: 50px;
+      text-align: center;
+    }
+
+    section {
+      max-width: 3000px; 
+      margin: 0px auto; 
+      padding: 0px; 
+      display: flex; /
+    }
+
+    .content-column {
+      flex: 1; 
+      box-sizing: border-box;
+      padding: 10px; 
+    }
+
+    .left-column {
+      width: 15%;
+      background-color: #fff;
+    }
+
+      .linked-box {
+        width: 500px;
+        border: 2px solid #333;
+        border-radius: 0px;
+        padding: 20px;
+        margin-bottom: 0px;
+        text-align: center;
+      }
+  
+      .linked-box a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+      }
+  
+      .linked-box a:hover {
+        background-color: #333;
+        color: #fff;
+      }
+
+    .center-column {
+      width: 65%;
+      background-color: darkkhaki;
+    }
+
+    .right-column {
+      width: 15%;
+    }
+
+      .rounded-image-frame {
+        border-radius: 50%; 
+        overflow: hidden; 
+      }
+  
+      .rounded-image-frame img {
+        width: 70%; 
+        height: auto; 
+        display: block; 
+        border-radius: 100%;
+      }
+
+    footer {
+      background-color: cornflowerblue;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Front End Quiz 1</h1>
+  </header>
+
+  <section>
+    <div class="content-column left-column">
+      <h2>Left Page</h2>
+      <p> <div class="content-column left-column">
+        <div class="linked-box">
+          <a href="https://www.google.com" target="_blank">Link 1</a>
+        </div>
+        <div class="linked-box">
+          <a href="https://www.google.com" target="_blank">Link 2</a>
+        </div>
+        <div class="linked-box">
+          <a href="https://www.google.com" target="_blank">Link 3</a>
+        </div>
+        <div class="linked-box">
+          <a href="https://www.google.com" target="_blank">Link 4</a>
+        </div>
+      </div></p>
+    </div>
+
+    <div class="content-column center-column">
+      <h2>Body Page</h2>
+      <p>I won't to die.</p>
+    </div>
+
+    <div class="content-column right-column">
+        <h2>Right Page</h2>
+        <p>
+          <div class="rounded-image-frame">
+            <img src="Isagi.jpg" alt="Isagi">
+          </div>
+        </p>
+      </div>
+  </section>
+
+  <footer>
+    <p>Footer</p>
+  </footer>
+
+</body>
+</html>
